@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>psedo selector</title>
+	<style>
+	ul li{
+		list-style: none;
+	}
+		a:link, a:visited{
+			font-family: cursive;
+			font-style: italic;
+			color: red;
+			background-color: green;
+			border: 10px;
+			margin: 5px;
+		}
+		a:hover, a:active{
+			background-color: pink;
+			color: purple;
+		}
+
+		section div:nth-child(odd){
+			background-color: grey;
+			font-family: cursive;
+			font-style: italic;
+
+		}
+		section div:hover{
+			background-color: black;
+			color: white;
+		}
+	</style>
+
+</head>
+<body>
+
+	<ul>
+		<li><a href="http://www.csszengarden.com/">zen garden</a></li>
+		<li><a href="http://www.w3schools.com/"> w3schools</a></li>
+		<li><a href="https://github.com/bajareaboli/Acourse/blob/gh-pages/site/index.html"> my site</a></li>
+	</ul>
+
+	<h1> Main Heading1</h1>
+	<h2> Sub heading</h2>
+	<section>
+		<div> div1</div>
+		<div> div2</div>
+		<div> div3</div>
+		<div> div4</div>
+		<div> div5</div>
+		<div> div6</div>
+		<div> div7</div>
+		<div> div8</div>
+
+	</section>
+
+</body>
+</html>

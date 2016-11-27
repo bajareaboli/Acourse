@@ -78,7 +78,7 @@ body {
     margin-top: -30px;
 }
 @media (min-width: 1200px) {
-    .container .jumbotron{
+    .jumbotron {
         background: url("../images/Daios-cove-12.png") no-repeat;
         height: 675px;
         box-shadow: 0 0 50px #3F0C1F;
@@ -92,7 +92,7 @@ body {
         height: 120px;
         margin-left: 5px 5px 5px 0;
     }
-    .container .jumbotron {
+    .jumbotron {
         background: url("../images/Daios-cove992.png") no-repeat;
         height: 558px;
         box-shadow: 0 0 50px #3F0C1F;
@@ -100,13 +100,13 @@ body {
     }
 }
 @media(min-width: 768px) and (max-width:991px) {
-    .container .jumbotron {
+    .jumbotron {
         background: url("../images/Daios-cove768.png") no-repeat;
         height: 430px;
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
     }
-}
+
 @media(max-width: 767px) {
     .navbar-brand {
         padding-top: 10px;
@@ -146,10 +146,10 @@ body {
     	letter-spacing: .1em;
     	text-transform: uppercase; 
     }
-    .container .jumbotron {
+    .jumbotron{
     	margin-top: 30px;
-    	padding: 0;
+    	padding:0;
     	box-shadow: 0 0 50px #3F0C1F;
-    	border: 2px solid #3F0C1F;  
+    	border: 2px solid #3F0C1F; 
     }
 }

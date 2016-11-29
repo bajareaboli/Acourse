@@ -12,9 +12,9 @@ body {
     border: 0;
 }
 #logo-img {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Eatnparkbigboy.png/150px-Eatnparkbigboy.png") no-repeat;
+    background: url("../images/new.png") no-repeat;
     width: 120px;
-    height: 120px;
+    height: 110px;
     margin-left: 5px;
 }
 .nav-brand {
